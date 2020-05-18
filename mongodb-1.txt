@@ -1,0 +1,24 @@
+Exercice 1 : 
+
+use twisted_db
+
+Exercice 2 :
+
+show databases
+
+Exercice 3 :
+
+use crooked_db
+db.createCollection("users")
+show databases
+
+Exercice 4 :
+
+use fake_db
+db.createCollection("fake_users")
+db.createCollection("fake_customers")
+show collections
+
+Exercice 5 :
+
+db.fake_users.insert({name:"Mick", city:"Chicago", age:64})
